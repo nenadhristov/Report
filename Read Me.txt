@@ -1,4 +1,10 @@
 Enter the password from your sql server in application.properties in clinicalsapi and clinicalServerAuth.
-Than start the ClinicalServerAuth microservice for authentication and authorization, than start the 
-clinicalsapi microservice for using the rest api's.
-Than start the clinicalapp the frotend for the application.
+
+
+Than start the ClinicalServerAuth microservice for authentication and authorization on users, than start the 
+clinicalsapi microservice for using the rest api's for patient and clinical data for that patient.
+
+
+Than start the clinicalapp the frontend for the application.
+
+clinical.sql is the database
