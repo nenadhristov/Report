@@ -1,0 +1,79 @@
+#za-prv-krug{
+
+    width: 20px;
+    height: 20px;
+}
+
+#circle {
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: lightgreen;
+    margin-top: 170px;
+    margin-right: 10px;
+  }
+
+  #circle1{
+
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: lightgreen;;
+    margin-top: 170px;
+    margin-left: 10px;
+  }
+
+
+#za-text{
+    margin-right: 5px;
+    font-family: Didot, serif;
+    font-size: 100px;
+    margin-top: 100px;
+    color: wheat;
+    
+
+}
+
+#za-text2{
+
+    color: wheat;
+    margin-top: -40px;
+    font-family: Didot, serif;
+    font-size: 50px;
+
+}
+
+.za-login-page{
+
+  background: url(../assets/iamges/login.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position:static;
+  height: 913px;
+  width: auto;
+  background-position: center; 
+  overflow:hidden;
+
+}
+
+#username-login{
+  color: wheat;
+  
+}
+
+#password-login{
+  color: wheat;
+  
+}
+
+#button-login{
+  
+  
+}
+
+
+

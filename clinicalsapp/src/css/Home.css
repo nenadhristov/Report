@@ -1,0 +1,115 @@
+.Login-component {
+    /* The image used */
+    background: url(../assets/iamges/61808.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center; 
+    overflow: hidden;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+#carouselExampleIndicators{
+    width:100%;
+    margin-top: 300px;
+}
+
+
+.carousel-control-next-icon{
+    margin-left: 100px;
+    width: 100%;
+}
+
+.carousel-control-prev-icon{
+    margin-right:100px;
+}
+
+.carousel{
+    width: 900px;
+  
+}
+
+.custom_centered{
+    text-align: center;
+}
+
+.custom-carousel{
+    width:100%;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block !important;
+}
+
+.carousel-item .img-fluid {
+    width:100%;
+    height:100%;
+}
+
+.carousel-caption h3 {
+    
+    position: relative;
+    font-weight: bold;
+    font-size: 1.5em; /* small size since this is the default in Bootstrap */
+    text-align: center;
+    width: 100%;
+    left: 0;
+    top: -200px;
+    
+}
+
+.carousel-caption p {
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 1em; /* small size since this is the default in Bootstrap */
+    text-align:center;
+    width: 100%;
+}
+
+
+
+@media (max-width: 560px) {
+    .carousel-caption p {
+      font-size: 80%;
+    }
+    .carousel-caption h3 {
+      font-size: 90%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .carousel-caption h3 {
+      font-size: 80%;
+    }
+    .carousel-caption p {
+      font-size: 65%;
+    }
+  }
+
+  @media only screen and (max-width: 765px) and (min-width: 561px)  {
+
+    .carousel-caption h3 {
+        font-size: 100%;
+      }
+      .carousel-caption p {
+        font-size: 100%;
+      }
+      
+  }
+
+
+  @media only screen and (max-width: 273px) and (min-width: 200px)  {
+
+    .carousel-caption h3 {
+        font-size: 60%;
+      }
+      .carousel-caption p {
+        font-size: 45%;
+      }
+      
+  }

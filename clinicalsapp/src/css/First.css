@@ -1,0 +1,353 @@
+.First-page-bottom-section{
+    height: 300px;
+    width: 1920px;
+    background-color:#343a40;
+    position:absolute;
+    bottom: 0;
+}
+
+.za-pocetna {
+    /* The image used */
+    background: url(../assets/iamges/403501.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 1230px;
+    width: auto;
+    background-position: center; 
+    overflow: hidden;
+}
+
+
+.naslov{
+    margin-top: 35px;
+    color: wheat;
+    font-size: 25px;
+}
+
+.naslov1{
+    margin-top: 35px;
+    margin-left: 9px;
+    color: wheat;
+    font-size: 25px;
+}
+
+.linija{
+    width: 1300px;
+    color: white;
+    border: solid 1px;
+}
+
+#first-row{
+
+    margin-left: 430px;
+    color:  wheat;
+    
+
+}
+
+#first-row-2{
+    margin-left: 430px;
+    color:  wheat;
+}
+
+
+#services{
+    margin-left: 320px;
+    color:  wheat;
+}
+
+#second-row-1{
+    margin-left: 201px;
+    color:  wheat;
+}
+
+#second-row-2{
+    margin-left: 912px;
+    color:  wheat;
+}
+
+#second-row-3{
+    margin-left: 912px;
+    color:  wheat;
+}
+
+#second-row-4{
+    margin-left: 912px;
+    color:  wheat;
+}
+
+#socials{
+    margin-left: 370px;
+    color:  wheat;
+}
+
+#twitterlogo{
+    width: 40px;
+    height: auto;
+}
+
+#link-twitter-logo{
+
+    margin-left: 378px;
+}
+
+#link-facebook-logo{
+    margin-left: 378px;
+}
+
+#facebooklogo{
+    width: 28px;
+    height: 28px;
+}
+
+#link-instagram-logo{
+    margin-left: 408px;
+}
+
+#instagramlogo{
+
+    width: 35px;
+    height: 35px;
+}
+
+#instagramlogo:hover{
+
+   transform: scale(1.5,1.5);
+}
+
+#facebooklogo:hover{
+    transform: scale(1.5,1.5);
+}
+
+#twitterlogo:hover{
+
+    transform: scale(1.5,1.5);
+}
+
+#krug {
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: lightgreen;
+    margin-top: 260px;
+    margin-right: 10px;
+  }
+
+  #krug1{
+
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: lightgreen;
+    margin-top: 265px;
+    margin-left: 10px;
+  }
+
+
+  #za-text3{
+        
+    color:wheat;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Didot, serif;
+    font-size: 100px;
+    margin-top: 190px;
+}
+
+#za-text4{
+
+    color: wheat;
+    margin-top: -40px;
+    font-family: Didot, serif;
+    font-size: 50px;
+
+}
+
+#btn {
+    color: wheat;;
+    border-color: aqua;
+     /*set the color you want here*/
+  }
+  #btn:hover {
+    color: wheat;
+    background-color:teal;
+    border-color:aqua; /*set the color you want here*/
+  }
+
+
+  @media only screen and (max-width: 812px) and (min-width: 320px)  {
+
+    #krug {
+        width: 15px;
+        height: 15px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        background: lightgreen;
+        margin-top: 240px;
+        margin-right: 10px;
+        margin-left: 65px;
+      }
+    
+      #krug1{
+    
+        width: 15px;
+        height: 15px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        background-color: lightgreen;
+        margin-top: 240px;
+        margin-left: 10px;
+      }
+
+      #btn {
+        color: wheat;;
+        border-color: aqua;
+         /*set the color you want here*/
+         margin-left: 138px;
+      }
+
+    #za-text3{
+        
+        color:wheat;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-family: Didot, serif;
+        font-size: 70px;
+        margin-top: 190px;
+    }
+
+    #za-text4{
+
+        color: wheat;
+        margin-top: -20px;
+        font-family: Didot, serif;
+        font-size: 30px;
+        margin-left: 152px;
+    
+    }
+
+    .First-page-bottom-section{
+        height: auto;
+        width: auto;
+        background-color:#343a40;
+        position:absolute;
+        bottom: 0;
+    }
+
+    .naslov{
+        margin-top: 10px;
+        color: wheat;
+        font-size: 13.5px;
+        margin-left: 16px;
+    }
+
+    .naslov1{
+
+        margin-top: 30px;
+        margin-right: 50px;
+        color: wheat;
+        font-size: 13.5px;
+        margin-left: -253px;
+    }
+
+    .linija{
+        width: 1000px;
+        color: white;
+        border: solid 1px;
+    }
+
+    #first-row{
+        font-size: 13.5px;
+        margin-left: 20px;
+        color:  wheat;
+        
+    
+    }
+
+    #first-row-2{
+        font-size: 10px;
+        margin-left: 20px;
+        color:  wheat;
+    }
+    
+    
+    #services{
+        margin-left: 100px;
+        color:  wheat;
+        font-size: 13.5px;
+    }
+    
+    #second-row-1{
+        font-size: 13.5px;
+        margin-left: 25px;
+        color:  wheat;
+    }
+    
+    #second-row-2{
+        font-size: 13.5px;
+        margin-left: 186px;
+        color:  wheat;
+    }
+    
+    #second-row-3{
+        font-size: 13.5px;
+        margin-left: 186px;
+        color:  wheat;
+    }
+    
+    #second-row-4{
+        font-size: 13.5px;
+        margin-left: 186px;
+        color:  wheat;
+        margin-top: -15px;
+    }
+    
+    #socials{
+        font-size: 13.5px;
+        margin-left: 90px;
+        color:  wheat;
+    }
+    
+    #twitterlogo{
+        width: 35px;
+        height: auto;
+        margin-left: -300px;
+        margin-top: -10px;
+    }
+    
+    #link-twitter-logo{
+    
+        margin-left: 378px;
+    }
+    
+    #link-facebook-logo{
+        margin-left: 378px;
+    }
+    
+    #facebooklogo{
+        width: 25px;
+        height: 25px;
+        margin-left: -299px;
+        margin-top: -5px;
+    }
+    
+    #link-instagram-logo{
+        margin-left: 408px;
+    }
+    
+    #instagramlogo{
+        margin-top: 2px;
+        margin-left: -310px;
+        width: 35px;
+        height: 35px;
+    }
+    
+      
+  }

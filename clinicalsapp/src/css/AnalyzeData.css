@@ -1,0 +1,36 @@
+.AnalyzeData-component {
+    /* The image used */
+    background: url(../assets/iamges/61808.jpg);
+    /* Full height */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+    background-position: center; 
+    overflow: auto;
+
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 381px)  {
+
+    #customlistitem {
+        
+        height: 97px;
+        width: 126px;
+    }
+      
+  }
+
+  
+@media only screen and (max-width: 380px) and (min-width: 100px)  {
+
+    #customlistitem {
+        
+        height: 115px;
+        width: 91px;
+    }
+      
+  }

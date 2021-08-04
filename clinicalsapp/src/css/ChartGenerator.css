@@ -1,0 +1,52 @@
+.ChartGenerator-component {
+    /* The image used */
+    background: url(../assets/iamges/61808.jpg);
+    /* Full height */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+    background-position: center; 
+    overflow: auto;
+
+}
+
+
+#custom-container{
+    max-width: 1200px;
+  }
+
+#custom-navbar{
+    max-width: 1550px;
+}
+
+  @media only screen and (max-width: 1145px) and (min-width: 1053px)  {
+
+    #custom-container{
+        width: 1000px;
+      }
+      
+  }
+
+
+  @media only screen and (max-width: 1052px) and (min-width: 771px)  {
+
+    #custom-container{
+        width: 750px;
+      }
+      
+  }
+
+  @media only screen and (max-width: 770px) and (min-width: 100px)  {
+
+    #custom-container{
+        width: 750px;
+      }
+
+      #custom-navbar{
+        width: 812px;
+    }
+      
+  }
+ 

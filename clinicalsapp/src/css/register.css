@@ -1,0 +1,26 @@
+.za-register{
+
+    background: url(../assets/iamges/login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:static;
+    height: 913px;
+    width: auto;
+    background-position: center; 
+    overflow:hidden;
+  
+  }
+
+  #username-register{
+    color: wheat;
+    
+  }
+  
+  #password-register{
+    color: wheat;
+    
+  }
+
+  #email-register{
+    color: wheat;
+  }
